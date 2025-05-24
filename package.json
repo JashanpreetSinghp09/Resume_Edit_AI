@@ -1,0 +1,26 @@
+{
+  "name": "resume_edit_ai",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JashanpreetSinghp09/Resume_Edit_AI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JashanpreetSinghp09/Resume_Edit_AI/issues"
+  },
+  "homepage": "https://github.com/JashanpreetSinghp09/Resume_Edit_AI#readme",
+  "description": "",
+  "dependencies": {
+    "html-docx-js": "^0.3.1",
+    "mammoth": "^1.9.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
+}
