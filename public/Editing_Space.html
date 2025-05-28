@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Editor - ResumeCraft AI</title>
+    <link rel="stylesheet" href="../src/stylesheet.css">
+    <script src="../src/index.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Resume Editor</h1>
+        <div class="uploaded-file-info">
+            <p><strong>Uploaded File:</strong> <span id="file-name">YourResume.docx</span></p>
+        </div>
+        <div class="ai-prompt-section">
+            <label for="ai-prompt"><strong>AI Prompt:</strong></label>
+            <textarea id="ai-prompt" rows="4" placeholder="Describe how you want your resume improved..."></textarea>
+            <button id="run-ai-btn" type="button">Run AI</button>
+        </div>
+        <div class="download-section">
+            <button id="download-btn" type="button">Download Edited Resume</button>
+        </div>
+    </div>
+    <script>
+        // Placeholder: Set file name dynamically if needed
+        // document.getElementById('file-name').textContent = localStorage.getItem('uploadedFileName');
+    </script>
+</body>
+</html>
