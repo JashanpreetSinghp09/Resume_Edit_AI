@@ -19,7 +19,7 @@
   "description": "",
   "dependencies": {
     "html-docx-js": "^0.3.1",
-    "mammoth": "^1.9.0",
+    "mammoth": "^1.9.1",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   }
