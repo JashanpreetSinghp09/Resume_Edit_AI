@@ -1,13 +1,31 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ResumeCraft AI</title>
+    
+    <script src="../src/index.js"></script>
+    <script src="../src/app.js"></script>
+    <script src="../ResumeCraftAI-ReactApp/src/main.jsx"></script>
+    
+    <link rel="stylesheet" href="../src/stylesheet.css">
+   
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>ResumeCraft AI</h1>
+        <h3> Format accepted - .Docx</h3>
+        <form id="resume-upload-form" enctype="multipart/form-data">
+            <label for="resume-file">Upload your resume:</label>
+            <input type="file" id="resume-file" name="resume-file" accept=".pdf,.doc,.docx" required>
+            <button type="submit">Upload</button>
+            <a href="./Editing_Space.html"> Editor Window</a>
+        </form>
+        <div id="upload-status"></div>
+    </div>
+</body>
+
 </html>
